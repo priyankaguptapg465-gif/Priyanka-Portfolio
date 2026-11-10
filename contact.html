@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Priyanka Gupta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">Priyanka Gupta</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main class="contact-section">
+
+        <div class="page-heading">
+            <p class="section-tag">GET IN TOUCH</p>
+            <h1>Contact <span>Me</span></h1>
+            <p>Feel free to connect with me for opportunities and collaboration.</p>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h2>Let's Connect!</h2>
+
+                <p>
+                    I am interested in learning, growing and exploring
+                    opportunities in software development.
+                </p>
+
+                <div class="contact-detail">
+                    <strong>📧 Email</strong>
+                    <p>
+                        <a href="mailto:priyankaguptapg465@gmail.com">
+                            priyankaguptapg465@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-detail">
+                    <strong>💼 LinkedIn</strong>
+                    <p>
+                        <a href="https://www.linkedin.com/in/priyanka-gupta-a5971a37a/"
+                            target="_blank" rel="noopener noreferrer">
+                            Visit My LinkedIn
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-detail">
+                    <strong>💻 GitHub</strong>
+                    <p>
+                        <a href="https://github.com/priyankaguptapg465-gif"
+                            target="_blank" rel="noopener noreferrer">
+                            Visit My GitHub
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <form class="contact-form"
+                onsubmit="event.preventDefault(); alert('Thank you for your message! This demo form is not connected to a server yet.');">
+
+                <h2>Send a Message</h2>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"
+                    placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5"
+                    placeholder="Write your message..." required></textarea>
+
+                <button type="submit">Send Message →</button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
